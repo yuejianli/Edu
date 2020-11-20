@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Common_Util" />
+        <module name="Msm" />
+        <module name="Vod" />
+        <module name="Statis" />
+        <module name="Oss" />
+        <module name="Spring_Security" />
+        <module name="Educ" />
+        <module name="Ucenter" />
+        <module name="Gateway" />
+        <module name="Acl" />
+        <module name="Order" />
+        <module name="Cms" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="7">
+      <module name="Msm" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Acl" options="-parameters" />
+      <module name="Cms" options="-parameters" />
+      <module name="Common" options="-parameters" />
+      <module name="Common_Entity" options="-parameters" />
+      <module name="Common_Util" options="-parameters" />
+      <module name="Educ" options="-parameters" />
+      <module name="Gateway" options="-parameters" />
+      <module name="Infrastructure" options="-parameters" />
+      <module name="Msm" options="-parameters" />
+      <module name="Order" options="-parameters" />
+      <module name="Oss" options="-parameters" />
+      <module name="Service" options="-parameters" />
+      <module name="Spring_Security" options="-parameters" />
+      <module name="Statis" options="-parameters" />
+      <module name="Ucenter" options="-parameters" />
+      <module name="Vod" options="-parameters" />
+    </option>
+  </component>
+</project>
