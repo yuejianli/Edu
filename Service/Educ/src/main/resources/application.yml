@@ -1,0 +1,17 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: Educ
+  profiles:
+    active: dev
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/edu?characterEncoding=utf8&useUnicode=true&serverTimezone=UTC
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  mapper-locations: classpath:com/yjl/edu/service/*/mapper/*.xml
+  global-config:
+    db-config:
+      logic-delete-value: 0
+      logic-not-delete-value: 1

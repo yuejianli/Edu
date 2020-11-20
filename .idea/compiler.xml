@@ -9,14 +9,14 @@
         <module name="Common_Util" />
         <module name="Msm" />
         <module name="Vod" />
-        <module name="Statis" />
-        <module name="Oss" />
+        <module name="Order" />
         <module name="Spring_Security" />
         <module name="Educ" />
         <module name="Ucenter" />
+        <module name="Statis" />
+        <module name="Oss" />
         <module name="Gateway" />
         <module name="Acl" />
-        <module name="Order" />
         <module name="Cms" />
       </profile>
     </annotationProcessing>
